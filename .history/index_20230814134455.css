@@ -79,11 +79,10 @@ ul li p {
   line-height: 130%;
 }
 
-.bottom-container ul li:nth-child(2){
+.center-container {
   margin-left: 95px;
 }
-.bottom-container ul li:last-child{
+
+.rigth-container {
   margin-left: 93px;
 }
-
-

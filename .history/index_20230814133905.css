@@ -7,7 +7,7 @@
 
 .container {
   width: 100%;
-  padding: 173.38px 153px 162px 121px;
+  padding: 173.38px 0 162px 121px;
 }
 
 .container .box-1 h1 {
@@ -23,8 +23,7 @@
 .top-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin-bottom: 90px;
+  margin-bottom: ;
 }
 .box-1{
   width: 662px;
@@ -38,29 +37,23 @@
   line-height: 150%;
 }
 
-.box-2 img{
+.box-2 {
   width: 314px;
-  height: 315px
+  height: 315px;
+  margin-left: 190px;
 }
 
-.bottom-container {
+.bootum-container {
   display: flex;
 }
-.bottom-container img{
-  width: 232px;
-height: 203px;
-}
-ul{
+
+.box-4 {
   display: flex;
   margin-left: 132px;
   align-items: center;
 }
-ul li{
-  list-style-type: none;
-  width: 150px;
-}
 
-ul li h2 {
+.box-4 h2 {
   margin-bottom: 1px;
   color: #000;
   font-family: Roboto;
@@ -70,7 +63,9 @@ ul li h2 {
   line-height: 130%;
 }
 
-ul li p {
+.box-4 p {
+  width: 150px;
+  height: 39px;
   color: #000;
   font-family: Roboto;
   font-size: 18px;
@@ -79,11 +74,10 @@ ul li p {
   line-height: 130%;
 }
 
-.bottom-container ul li:nth-child(2){
+.center-container {
   margin-left: 95px;
 }
-.bottom-container ul li:last-child{
+
+.rigth-container {
   margin-left: 93px;
 }
-
-
