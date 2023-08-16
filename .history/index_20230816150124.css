@@ -163,7 +163,7 @@ ul li p {
 
   .top-container {
     flex-direction: column;
-    justify-content: center;
+    
     margin-bottom: 59px;
   }
 
@@ -179,6 +179,11 @@ ul li p {
     width: 146px;
     height: 146px;
   }
+
+  .box-2 {
+    margin: 15px 0 59px 78px;
+  }
+
   .bottom-container img {
     display: none;
     width: 232px;
@@ -187,7 +192,6 @@ ul li p {
 
   ul {
     margin-left: 0px;
-    flex-wrap: wrap;
     
   }
 
@@ -195,15 +199,5 @@ ul li p {
     margin-left: 33px;
   }
 
-  .bottom-container ul li:nth-child(3) {
-    margin-left: 0;
-  }
-
  
-}
-
-@media screen and (max-width:377px) {
-  .bottom-container ul li:nth-child(3) {
-    margin-top: 10px;
-  }
 }

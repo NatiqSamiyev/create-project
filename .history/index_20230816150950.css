@@ -201,9 +201,3 @@ ul li p {
 
  
 }
-
-@media screen and (max-width:377px) {
-  .bottom-container ul li:nth-child(3) {
-    margin-top: 10px;
-  }
-}

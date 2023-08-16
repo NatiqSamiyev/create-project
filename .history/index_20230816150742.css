@@ -195,15 +195,5 @@ ul li p {
     margin-left: 33px;
   }
 
-  .bottom-container ul li:nth-child(3) {
-    margin-left: 0;
-  }
-
  
-}
-
-@media screen and (max-width:377px) {
-  .bottom-container ul li:nth-child(3) {
-    margin-top: 10px;
-  }
 }
