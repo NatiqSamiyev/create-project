@@ -26,7 +26,7 @@
   justify-content: space-between;
   margin-bottom: 90px;
 }
-.box-1{
+.box-1 {
   width: 662px;
 }
 .box-1 p {
@@ -38,24 +38,24 @@
   line-height: 150%;
 }
 
-.box-2 img{
+.box-2 img {
   width: 314px;
-  height: 315px
+  height: 315px;
 }
 
 .bottom-container {
   display: flex;
 }
-.bottom-container img{
+.bottom-container img {
   width: 232px;
-height: 203px;
+  height: 203px;
 }
-ul{
+ul {
   display: flex;
   margin-left: 132px;
   align-items: center;
 }
-ul li{
+ul li {
   list-style-type: none;
   width: 150px;
 }
@@ -79,11 +79,124 @@ ul li p {
   line-height: 130%;
 }
 
-.bottom-container ul li:nth-child(2){
+.bottom-container ul li:nth-child(2) {
   margin-left: 95px;
 }
-.bottom-container ul li:last-child{
+.bottom-container ul li:last-child {
   margin-left: 93px;
 }
 
+/* tablet style */
 
+@media screen and (max-width: 1024px) {
+  .container {
+    padding: 100px 88px 93px 70px;
+    background-color: coral;
+  }
+
+  .container .box-1 h1 {
+    margin-bottom: 10px;
+    font-size: 32px;
+  }
+
+  .top-container {
+    margin-bottom: 50px;
+  }
+
+  .box-1 {
+    width: 383px;
+  }
+
+  .box-1 p {
+    font-size: 14px;
+  }
+
+  .box-2 img {
+    width: 181.858px;
+    height: 182.438px;
+  }
+
+  .bottom-container img {
+    width: 134.367px;
+    height: 117.571px;
+  }
+
+  ul {
+    margin-left: 76px;
+  }
+
+  ul li {
+    width: 86px;
+  }
+
+  ul li h2 {
+    margin-bottom: 1px;
+    font-size: 15px;
+  }
+
+  ul li p {
+    font-size: 11px;
+  }
+
+  .bottom-container ul li:nth-child(2) {
+    margin-left: 55px;
+    width: 108px;
+  }
+
+  .bottom-container ul li:last-child {
+    margin-left: 32px;
+  }
+}
+
+/* mobil style */
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 75px 30px 73px 35px;
+    background-color: rgb(147, 255, 80);
+  }
+
+  .container .box-1 h1 {
+    margin-bottom: 8px;
+    font-size: 26px;
+  }
+
+  .top-container {
+    display: block;
+    margin-bottom: 59px;
+  }
+
+  .box-1 {
+    width: 308px;
+  }
+
+  .box-1 p {
+    font-size: 12px;
+  }
+
+  .box-2 img {
+    width: 146px;
+    height: 146px;
+  }
+
+  .box-2 {
+    margin: 15px 0 59px 78px;
+  }
+
+  .bottom-container img {
+    display: none;
+    width: 232px;
+    height: 203px;
+  }
+
+  ul {
+    margin-left: 0px;
+    
+  }
+
+  .bottom-container ul li:nth-child(2) {
+    margin-left: 33px;
+  }
+
+ 
+}
